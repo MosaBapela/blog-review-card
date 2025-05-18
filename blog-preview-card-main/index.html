@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Blog preview card</title>
+  <link rel="stylesheet" href="https://fonts.google.com/specimen/Figtree">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+        
+
+        body
+        {
+          
+          font-family: 'Figtree', sans-serif;
+          font-weight: 500, 800;
+          background-color: hsl(47, 88%, 63%);
+          
+        }
+
+        #whiteMiniDiv{
+          
+          position: absolute;
+          top: 22%;
+          left: 40%;
+          width: 300px;
+          height: 450px;
+          border: black solid 2px;
+          border-radius: 10px;
+          box-shadow: 4px 4px; /*Create a shadow on the border(by using the box-shadow property)*/
+          background-color: white;
+        }
+
+        #logoPhoto{
+          position: relative;
+          
+          height: 160px;
+          padding: 15px;
+          border:white solid 1px;
+          border-radius: 10px;
+        }
+
+        #learningHeadingDiv{
+
+          background-color:hsl(47, 88%, 63%);
+          border: white solid 2px;
+          /*Check this one*/
+          border-radius: 5px;
+          width:110px;
+          position:relative;
+          left:15px;
+        }
+
+        #learningHeading{
+          
+          font-size: 16px;
+          position:relative;
+          left: 20px;
+          
+        }
+
+        #para1{
+          font-size: 16px;
+          position:relative;
+          /*bottom: 30px;*/
+          left: 15px;
+        }
+        #heading2{
+          
+          font-size: 16px;
+          position:relative;
+          /*bottom: 35px;*/
+          left: 15px;
+
+        }
+
+        #heading2:hover{
+          color:hsl(47, 88%, 63%);
+          
+        }
+
+        
+
+        #para2{
+            font-size: 14px;
+            color:hsl(0, 0%, 42%);
+            position: relative;
+            /*bottom:50px;*/
+            left: 15px;
+        }
+
+        #avatarImage{
+          height: 40px;
+
+        }
+
+        #imageAndTextDiv{
+          position: relative;
+          left: 15px;
+          top: 7px;
+        }
+        
+        h3{
+          font-size: 16px;
+          position: relative;
+          bottom: 48px;
+          left: 50px;
+        }
+  </style>
+
+    
+</head>
+  <body>
+                <div id="whiteMiniDiv"><!--Mini Container with the white background background-->
+                  
+                      <img id="logoPhoto" src="logo.png" alt="logo">
+                      <div id="miniDivInfo">
+                          <div id="learningHeadingDiv">
+                            <h1 id="learningHeading" >Learning</h1>
+                          </div>
+                          <p id="para1">Published 21 Dec 2023</p>
+                          <h2 id="heading2">HTML & CSS foundations</h2>
+                          <p id="para2">These languages are backbone of every website, defining structure, content and presentation</p>
+                          
+                          <div id="imageAndTextDiv">
+                            <img id="avatarImage" src="image-avatar.webp" alt="image_avatar">
+                            <h3>Greg Hopper</h3>
+                          </div>
+                          
+                      </div>
+
+                </div>
+
+  </body>
+</html>
